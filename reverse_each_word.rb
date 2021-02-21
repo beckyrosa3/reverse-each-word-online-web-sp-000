@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-  string = "Hello there, and how are you?"
-  string.each do |one|
+  split_string = string.split(" ")
+  split_string.each do |one|
     puts "#{one.reverse}"
   end
 end
