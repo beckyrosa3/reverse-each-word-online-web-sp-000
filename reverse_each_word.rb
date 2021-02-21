@@ -1,6 +1,7 @@
-def reverse_each_word(string)
-string = string.split("")
-reversed = []
-string.each {|i| reversed.unshift(i)}
-return reversed.join("")
+def reverse_each_word(sentence)
+  nusentence =[]
+  sentence.each do |string|
+  sentence.split(" ").reverse.join(" ")
+  end
+  nusentence
 end
